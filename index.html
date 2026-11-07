@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        Public Grievance Portal
+    </head>
+    <body>
+        <h1>
+            CiviConnect
+        </h1>
+        <h2>
+            Report a civic issue in your area, 
+        </h2>
+        <h3>
+            Help your local authorities address problems such as potholes, broken streetlights, garbage buildup, and water leaks. Submit a report with the location and details, and check its status later.
+        </h3>
+        <br>
+        <br>
+        <div class="form">
+            <h2>
+                Submit a Complaint
+            </h2>
+            <h4>
+                Fields marked with * are important
+            </h4>
+            <form>
+                
+                <label for="name">
+                    Name*:
+                    <input type="text" placeholder="Enter your name" class="name" id="name" required>
+                </label>
+
+                <label for="ph">
+                    Phone-Number*:
+                    <input type="number" placeholder="Enter your Phone Number" class="ph" id="ph" required>
+                </label> 
+
+                <label for="pc">
+                    Pin-Code*:
+                    <input type="number" placeholder="Enter your Pin-Code" class="pc" id="pc" required>
+                </label>
+
+                <label for="loca">
+                    Location*:
+                    <input type="text" placeholder="Enter the street, Landmark or area" class="loca" id="loca" required>
+                </label>
+
+                <label for="ward">
+                    Ward*: 
+                    <input type="number" placeholder="Enter your Ward-Number" class="ward" id="ward" required>
+                </label>
+
+                <label for="cat">
+                    Category*:
+                    <select id="category" name="category" required>
+                    <option value="" selected disabled>Select a category</option>
+                    <option value="road">Road / Pothole</option>
+                    <option value="streetlight">Streetlight</option>
+                    <option value="garbage">Garbage</option>
+                    <option value="water">Water Leakage</option>
+                    <option value="drainage">Drainage</option>
+                    <option value="other">Other</option>
+                </select>
+                </label>
+
+                <label for="img">
+                    Upload an Image:
+                    <input type="file" placeholder="Upload the photo" class="img" id="img" accept="image/*">
+                </label>
+
+                <label for="des">
+                    Description*:
+                    <input type="text" placeholder="Describe the Grievance" class="des" id="des" required>
+                </label>
+
+                <label for="sub">
+                    <input type="submit" class="sub" id="sub">
+                </label>
+
+                <label for="reset">
+                <input type="reset">
+                </label>
+
+            </form>
+        </div>
+        <br>
+        <br>
+        <a href="thetablefile"><button> View Complaint status </button></a>
+        <br>
+        <br>
+        <h2>
+            CivicConnect — Helping communities report local issues.
+        </h2>
+    </body>
+</html>
